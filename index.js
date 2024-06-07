@@ -1,5 +1,10 @@
 function myFunction() {
   alert("I am an alert box!");
+function oneButton() {
+  var button = document.querySelector("#button1");
+  alert("Gotteeee");
+  console.log('Gotteeeeee');
+  return;
 }
 
 function play() {
@@ -17,4 +22,5 @@ function play() {
 // }
 // button.addEventListener("click", oneButton);
 
+// oneButton();
 // oneButton();
