@@ -1,10 +1,14 @@
 function myFunction() {
   alert("I am an alert box!");
+}
 function oneButton() {
   var button = document.querySelector("#button1");
   alert("Gotteeee");
   console.log('Gotteeeeee');
   return;
+}
+function getSpotify() {
+  var spotifyBtn = document.getElementById('spotify')
 }
 
 function play() {
